@@ -1,12 +1,17 @@
+/* eslint-disable react/no-unescaped-entities */
 import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import { styles } from '../styles';
-import { navLinks } from '../constants';
-import { shaq, bwmap, worldmap } from '../assets';
+// import { navLinks } from '../constants';
+import { 
+  bwmap, worldmap,
+  // shaq     //Imagen
+} from '../assets';
 
 const Hero = () => {
   return (
     <>
+    {/* Imagen mapa de fondo vista grande */}
       <div className="absolute top-0 left-0 z-0 h-[100vh] w-screen">
         <img
           src={bwmap}
@@ -14,6 +19,8 @@ const Hero = () => {
           className="w-full h-full sm:block hidden object-cover"
         />
       </div>
+
+    {/* Imagen mapa de fondo vista chica */}
       <div className="absolute top-0 left-0 z-0 h-[100vh] w-screen">
         <img
           src={worldmap}
@@ -21,6 +28,7 @@ const Hero = () => {
           className="w-full h-full sm:hidden block object-cover"
         />
       </div>
+      
       <section
         className="relative flex sm:flex-row flex-col w-full h-screen mx-auto 
         sm:bg-hero bg-hero-mobile overflow-hidden">
@@ -42,21 +50,20 @@ const Hero = () => {
                 className="sm:text-battleGray sm:text-[90px] 
                 text-eerieBlack text-[50px] font-mova
                 font-extrabold uppercase">
-                Shaquille
+                Tomas Gutierrez
               </span>
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
-              Lorem ipsum dolor sit amet. <br className="sm:block hidden" />
-              consectetur adipisicing elit deleniti, voluptas.
+              Software Developer              
             </p>
           </div>
           <div
             className="w-screen flex flex-col items-start 
             justify-center sm:-ml-[3rem] xxs:mt-4"></div>
-
-          <div></div>
         </div>
+        <div></div>
 
+        {/* Animacion para scroll ahcia abajo */}
         <div
           className="absolute xs:bottom-10 bottom-32 w-full 
           flex justify-center items-center">
@@ -81,7 +88,7 @@ const Hero = () => {
         </div>
 
         {/* Your image comes here. Feel free to remove image if you don't plan to have one.*/}
-        <div>
+        {/* <div>
           <img
             className="absolute bottom-0 ml-[50vw] 
             lg:ml-[75vw] md:ml-[60vw] xmd:ml-[60vw] 2xl:ml-[83vw]
@@ -89,7 +96,7 @@ const Hero = () => {
             src={shaq}
             alt="shaquille"
           />
-        </div>
+        </div> */}
       </section>
     </>
   );

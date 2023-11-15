@@ -1,4 +1,7 @@
-import React from 'react';
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable react-refresh/only-export-components */
+/* eslint-disable react/no-unknown-property */
+/* eslint-disable react/prop-types */
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { services } from '../constants';
@@ -37,12 +40,9 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
-        sapiente ipsum dolorum dicta eaque cumque inventore molestias, beatae ea
-        quaerat alias accusamus voluptas autem! Alias odit voluptates in totam
-        vitae dignissimos minus eaque culpa unde tempore dolore aperiam
-        obcaecati voluptatum aliquam corrupti, suscipit accusamus! Odit unde
-        veniam dolorum ipsum doloribus.
+I am a passionate software developer with a deep love for programming and web design. My fascination with creating visually appealing and highly functional digital experiences has led me to specialize in web application development.
+
+My focus is centered on problem-solving and continuous improvement. I enjoy the challenges that the world of web development presents, and find satisfaction in overcoming technical obstacles. I believe that the software we create can have a significant impact on people's lives and the community at large.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

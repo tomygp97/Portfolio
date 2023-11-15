@@ -12,22 +12,19 @@ import {
   tailwind,
   nodejs,
   git,
-  figma,
-  docker,
-  postgresql,
-  rubyrails,
-  graphql,
   komikult,
   leaderboard,
   math,
   movie,
   nyeusi,
-  space,
+  //! space,  BORRAR
   coverhunt,
   dcc,
   kelhel,
   microverse,
+  mui
 } from '../assets';
+
 
 export const navLinks = [
   {
@@ -97,29 +94,13 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: 'Rails',
-    icon: rubyrails,
-  },
-  {
-    name: 'graphql',
-    icon: graphql,
-  },
-  {
-    name: 'postgresql',
-    icon: postgresql,
-  },
-  {
     name: 'git',
     icon: git,
   },
-  {
-    name: 'figma',
-    icon: figma,
-  },
-  {
-    name: 'docker',
-    icon: docker,
-  },
+{
+  name: 'mui',
+  icon: mui,
+},
 ];
 
 const experiences = [
