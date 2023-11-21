@@ -7,6 +7,7 @@ import logo from './logo/logo-black.png';
 import logotext from './logo/logo-text-black.png';
 
 import shaq from './personal/shaq.png'; //! BORRAR
+import tomasGutierrezResume from './personal/tomas-gutierrez-resume.pdf';
 
 import backend from './icons/backend.png';
 import ux from './icons/ux.png';
@@ -38,6 +39,7 @@ import coverhunt from './company/coverhunt.png';
 import dcc from './company/dcc.png';
 import kelhel from './company/kelhel.png';
 import microverse from './company/microverse.png';
+import comerciosj from './company/comerciosj.png';
 
 import komikult from './projects/komikult.png';
 import leaderboard from './projects/leaderboard.png';
@@ -54,6 +56,7 @@ export {
   logo,
   logotext,
   shaq,
+  tomasGutierrezResume,
   backend,
   ux,
   frontend,
@@ -88,4 +91,5 @@ export {
   dcc,
   kelhel,
   microverse,
+  comerciosj
 };
